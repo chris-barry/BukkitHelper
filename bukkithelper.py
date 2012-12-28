@@ -15,7 +15,7 @@ api_version = "1.0"
 preferred_build = "rb"
 
 def main():
-	if len(sys.argv) < 1 or len(sys.argv) > 2:
+	if len(sys.argv) <= 1 or len(sys.argv) > 2:
 		help()
 		return
 	if sys.argv[1] == "run":
