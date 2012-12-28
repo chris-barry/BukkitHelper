@@ -4,6 +4,7 @@ The updating uses [bukkit's api](http://dl.bukkit.org/about/#apiDocumentation) s
 In the code you can change the channel you would like to use (stable, beta, or development).
 
 # Usage
+This expects that the script is located in the root directory of your bukkit server.
 
 ## Run
 1. `python bukkithelper.py run`
