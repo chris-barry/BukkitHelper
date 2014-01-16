@@ -28,7 +28,7 @@ def main():
 
 def run():
 	if os.path.exists(bukkit_jar):
-		subprocess.call(['java', '-jar', bukkit_jar])
+		subprocess.call(['java', '-Xmx2048M', '-Xms2048M', '-Djava.awt.headless=true','-jar', bukkit_jar])
 	else:
 		print "Bukkit does not exist"
 
